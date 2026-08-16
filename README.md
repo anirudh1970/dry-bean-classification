@@ -37,4 +37,4 @@ Five classification models were implemented on the dataset[cite: 1]. All models 
 | **Random Forest (Ensemble)** | **Overall Winner.** Outperformed all other models by reducing variance through bagging, capturing complex non-linear feature interactions, and yielding the highest accuracy, AUC, and MCC scores. |
 
 ---
-* **Live Streamlit App Link:** [Insert your Streamlit Cloud App URL here][cite: 1]
+* **Live Streamlit App Link:** https://drybean-classification.streamlit.app/
