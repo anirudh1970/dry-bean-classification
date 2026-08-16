@@ -11,16 +11,16 @@ st.write("Upload the test data to evaluate the performance of different Machine 
 # --- 1. Load Pre-trained Assets ---
 @st.cache_resource
 def load_assets():
-    scaler = joblib.load('model/scaler.pkl')
-    le = joblib.load('model/label_encoder.pkl')
+    scaler = joblib.load('scaler.pkl')
+    le = joblib.load('label_encoder.pkl')
     
     # Load all saved models
     models = {
-        "Logistic Regression": joblib.load('model/Logistic_Regression.pkl'),
-        "Decision Tree": joblib.load('model/Decision_Tree.pkl'),
-        "kNN": joblib.load('model/kNN.pkl'),
-        "Naive Bayes": joblib.load('model/Naive_Bayes.pkl'),
-        "Random Forest (Ensemble)": joblib.load('model/Random_Forest_(Ensemble).pkl')
+        "Logistic Regression": joblib.load('Logistic_Regression.pkl'),
+        "Decision Tree": joblib.load('Decision_Tree.pkl'),
+        "kNN": joblib.load('kNN.pkl'),
+        "Naive Bayes": joblib.load('Naive_Bayes.pkl'),
+        "Random Forest (Ensemble)": joblib.load('Random_Forest_(Ensemble).pkl')
     }
     return scaler, le, models
 
