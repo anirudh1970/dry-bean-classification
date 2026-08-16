@@ -11,7 +11,7 @@ The objective of this assignment is to implement an end-to-end Machine Learning 
 * **Total Features:** 16 geometric dimensions and shape attributes (Exceeds the minimum requirement of 12 features)[cite: 1]
 
 ## c. GitHub Repository Link
-* https://github.com/anirudh1970/dry-bean-classification[cite: 1]
+* https://github.com/anirudh1970/dry-bean-classification
 
 ## d. Models Used & Evaluation
 Five classification models were implemented on the dataset[cite: 1]. All models were evaluated using 'macro' averaging for multi-class metrics:
